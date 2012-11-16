@@ -479,16 +479,16 @@ body.login {
 }
 */
 .main-content > header .avatar {
-    background: #fff url(../images/user_32.png) no-repeat center center;
+    /**background: #fff url(../images/user_32.png) no-repeat center center;**/
     -moz-box-shadow: 0 0 3px #777;
     -webkit-box-shadow: 0 0 3px #777;
     -khtml-box-shadow: 0 0 3px #777;
     box-shadow: 0 0 3px #777;
     display: block;
     float: left;
-    height: 60px;
+    /**height: 60px;**/
     margin-right: 10px;
-    width: 60px;
+    /**width: 60px;**/
 }
 
 .main-content > header .tags {
@@ -716,14 +716,14 @@ body.login {
 .list-view > li .avatar {
     border: 1px solid #ddd;
     float: left;
-    height: 32px;
+    /**height: 32px;**/
     margin-right: 4px;
-    width: 32px;
+   /** width: 32px;**/
 }
 
 .list-view > li .avatar img {
-    width: 32px;
-    height: 32px;
+   /** width: 32px;
+    height: 32px;**/
 }
 
 /**
@@ -822,7 +822,7 @@ body.login {
 }
 
 .listing > li.contact .avatar {
-    background: transparent url(../images/user_32.png) no-repeat center center;
+   /** background: transparent url(../images/user_32.png) no-repeat center center;**/
 }
 
 .listing > li.company .avatar {
@@ -877,10 +877,24 @@ body.login {
 
 .profile-info li span {
     color: #777;
-    float: right;
-    font-size: 9px;
+    /**float: right;**/
+    font-size: 12px;
+	width:130px;
+	float : left;
+	font-weight:bold;
+	/**margin-right:30px;**/
 }
 
+.profile-info li label {
+	float : left;
+	padding : 4px 0 0 0;
+	margin : 0 0 0 -124px;
+	font-size : 12px;
+	color : #002e68;
+	font-weight : bold;
+	cursor : text;
+	width : 124px;
+}
 .profile-info li.email {
     background: transparent url(../images/icons/email.png) no-repeat 0 50%;
 }
@@ -1012,6 +1026,9 @@ body.login {
 }
 .icon-tick {
     background-image: url(../images/icons/tick.png) !important;
+}
+.icon-add {
+    background-image: url("../images/icons/add.png") !important;
 }
 .icon-time {
     background-image: url(../images/icons/time.png) !important;
